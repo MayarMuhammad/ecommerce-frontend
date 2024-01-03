@@ -1,0 +1,99 @@
+.navbar-brand {
+  width: 200px;
+}
+.bg-main-light {
+  background-color: #f0f3f2 !important;
+}
+.paymentLogo {
+  width: 50px;
+}
+.storesLogo {
+  width: 130px;
+  height: 43px;
+}
+.fa-circle-xmark {
+  color: red;
+}
+.fa-circle-check {
+  color: green;
+}
+.logout {
+  cursor: pointer;
+}
+.iconDiv {
+  position: relative;
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+.icon {
+  position: relative;
+  top: 2px;
+  z-index: 1;
+  color: black;
+}
+.iconCount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 12px;
+  border-radius: 50%;
+  background: green;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  display: block;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.cartItemImage {
+  width: 100px;
+}
+.cart-product-quantity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 130px;
+  max-width: 100%;
+  border: 0.5px solid rgb(177, 177, 177);
+  border-radius: 5px;
+}
+.cart-product-quantity button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+.cart-product-quantity .count {
+  padding: 0.7rem 0;
+}
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.7;
+}
+.sliderImage {
+  height: 300px;
+}
+.card-img {
+  width: 250px !important;
+}
+.slick-dots li {
+  width: 50px;
+  height: 50px;
+  margin: 7px;
+}
+.slick-dots {
+  bottom: -55px;
+}
+.extraMargin {
+  margin-bottom: 120px !important;
+}
+@media only screen and (max-width: 992px) {
+  input {
+    width: 100% !important;
+  }
+}
